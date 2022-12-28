@@ -1,0 +1,11 @@
+#!/usr/bin/python
+#Criando um dicionário
+#catalogo = {'Nome': ['Joaquim'], 'Sobrenome': ['Cardoso'], 'Cidade Atual': ['São Paulo']}
+
+#print(catalogo)			#Exibe os dados de catalago
+
+#Criando o dicionário b
+catalogo = {'Nome': ['Joaquim','Laura'], 'Sobrenome': ['Cardoso','Da Silva'], 'Cidade Atual': ['São Paulo','Rio de Janeiro']}
+
+print(catalogo['Nome'][0])		#Exibe o primeiro dado do campo 'Nome'
+print(len(catalogo))
