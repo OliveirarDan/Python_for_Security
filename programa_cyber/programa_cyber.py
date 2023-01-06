@@ -4,16 +4,16 @@
 #Imports
 import sys
 sys.path.append('/home/kali/Desktop/Python_Scripts/programa_cyber/modulos/') #definindo ambiente com módulos
-import cyberUtils
+import CyberUtils
 
 continua = True
 
 
 
 while continua == True:
-	cyberUtils.menu()
-	continua = cyberUtils.continuaPrograma()
+	CyberUtils.menu_principal()
+	continua = CyberUtils.continua_programa()
 	
 
 
-cyberUtils.insereTexto("Até Mais!")
+CyberUtils.insere_texto("Até Mais!")

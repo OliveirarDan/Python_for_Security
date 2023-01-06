@@ -4,18 +4,18 @@
 import os
 
 #Função para exibir cabeçalho com texto padronizado
-def insereTexto(m):
+def insere_texto(m):
 	print(m)
 
-def insereTitulo(m):
+def insere_titulo(m):
 	m=m.upper()
 	print("************ " + m + " ************")
 
 
-def limpaTela():
+def limpa_tela():
 	os.system("clear")
 
-def continuaPrograma():
+def continua_programa():
 	r = input("Deseja voltar ao menu principal? (S/N)")	 
 	if r == "S" or r =="s":
 		return True
@@ -24,7 +24,7 @@ def continuaPrograma():
 	continuaPrograma()	
 
 #Função para chamar o menu do programa
-def menu(): 
+def menu_principal(): 
 	limpaTela()
 	insereTitulo ("Menu principal")	
 	insereTitulo ("Escolha uma opção:")
